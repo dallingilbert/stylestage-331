@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Lora:wght@400;600&display=swap");
+body {
+  background-color: #e2e2e2;
+  color: #384d48;
+}
+
 :root {
-  --color-primary: #3a00ff;
-  --color-primary-alt: #6f6ffd;
-  --color-secondary: #d42257;
-  --color-background: #d2fbf7;
-  --color-text: #412d86;
+  --color-primary: #384d48;
+  --color-primary-alt: #6E7271;
+  --color-secondary: #ACAD94;
+  --color-background: #e2e2e2;
+  --color-text: #2b3230;
   --color-light: #fff;
-  --color-anchor: #3a00ff;
-  --font-family: "Baloo 2", sans-serif;
+  --color-anchor: #384d48;
+  --font-family: 'Fasthand', cursive;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
@@ -74,5 +80,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
