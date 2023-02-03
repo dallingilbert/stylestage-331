@@ -69,3 +69,15 @@ select {
 svg {
   display: none;
 }
+
+header {
+  background: url("/Assets/view_of_lake_nemi_1994.52.2.jpg");
+  background-size: 100%;
+  height: 45vh;
+  background-repeat: none;
+  background-position: 0 -100px;
+}
+
+svg {
+  display: none;
+}
