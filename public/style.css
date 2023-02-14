@@ -65,7 +65,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
 svg {
   display: none;
 }
@@ -81,3 +80,5 @@ header {
 svg {
   display: none;
 }
+
+/*# sourceMappingURL=style.css.map */
