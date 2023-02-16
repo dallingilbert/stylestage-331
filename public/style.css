@@ -91,6 +91,21 @@ header h2 {
   font-family: "Cormorant", serif;
 }
 
+header p a {
+  text-decoration: none;
+  color: #384d48;
+}
+
+header a:not(p a) {
+  background-color: #384d48;
+  padding: 0.8em;
+  margin-left: 3em;
+  color: #e2e2e2;
+  font-family: "Fasthand", cursive;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
 header .container {
   float: right;
   transform: scaleX(-1);

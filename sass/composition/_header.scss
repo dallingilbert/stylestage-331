@@ -16,7 +16,19 @@ header h1{
 header h2{
     font-family:$core-font ;
 }
-
+header p a{
+    text-decoration: none;
+    color: $color-primary;
+}
+header a:not(p a) {
+    background-color: $color-primary;
+    padding: .8em;
+    margin-left: 3em;
+    color: $color-background;
+    font-family: $accent-font;
+    border-radius: 2px;
+    text-decoration:none ;
+}
 header .container{
     float: right;
     transform: scaleX(-1);
