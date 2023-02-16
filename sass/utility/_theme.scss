@@ -4,11 +4,12 @@ $color-secondary: #ACAD94 !default;
 $color-background: #e2e2e2 !default;
 
 $heading-font: 'Marcellus SC', serif;
-
+$core-font: 'Cormorant', serif;
+$accent-font: 'Fasthand', cursive;
 
 body{
   background-color: $color-background;
   color: #384d48;
-  font-family:$heading-font ;
+  font-family:$core-font ;
 }
 
