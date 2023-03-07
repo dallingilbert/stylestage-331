@@ -69,6 +69,10 @@ article {
   width: 100vw;
 }
 
+.skip-link {
+  display: none;
+}
+
 svg {
   display: none;
 }
@@ -127,10 +131,9 @@ nav a {
   text-decoration: none;
 }
 
-
 nav li:hover {
   text-shadow: -1px 1px 8px #4D4D3D, 1px -1px 8px #4D4D3D;
-  transition: text-shadow .7s ease;
+  transition: text-shadow 0.7s ease;
 }
 
 nav {

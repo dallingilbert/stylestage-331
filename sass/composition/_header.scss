@@ -1,3 +1,6 @@
+.skip-link{
+    display: none;
+}
 svg{
     display: none;
 }
@@ -36,3 +39,27 @@ header .container{
 ul{
     list-style: none;
 }
+ul li {
+    display: inline;
+    padding: 0 20px;
+  }
+  
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  
+  nav li:hover {
+    text-shadow: -1px 1px 8px #4D4D3D, 1px -1px 8px #4D4D3D;
+    transition: text-shadow .7s ease;
+  }
+  
+  nav {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+  }
+  
